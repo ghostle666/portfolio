@@ -82,42 +82,57 @@ padding-top:10%;
 
 #des{
   text-align: center;
-line-height: 1.8;
-margin: 6%;
+  line-height: 3;
+  margin: 6%;
+  line-spacing:.5rem;
 }
 
 
 .letsworkbutton{
   background-color:#99B28A ;
-  padding:2%;
-  border-radius: 20px;
+  padding:1%;
   border: none;
   margin: 0;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  
- 
+  color:black;
+ font-family: 'Times New Roman', Times, serif;
 }
 
 .center-button{
   display: flex;
-  justify-content: center;
+  justify-content: center;    
   align-items: center;
 }
 
 
-.projectheading{
-padding:14%;
-}
 
 
 .projects{
 background-color: #7D8D75;
 min-height:100vh;
 width:100%;
+padding:10%;
 }
+
+
+.portfolio-projects{
+display: grid;
+
+  grid-template-columns: 10rem 10rem;
+  gap:40px;
+
+  background-color: #1E2B34;
+}
+
+.grid{
+  gap:10px; 
+  height: 8rem;
+width:8rem;
+}
+
 
 .contact{
 
@@ -140,14 +155,6 @@ letter-spacing: .1cm;
 
 
 
-.portfolio-projects{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-gap: 20px;
-}
-
 
 
 @media only screen and (min-width: 768px){
@@ -166,7 +173,6 @@ gap: 20px;
 
 padding-left: 20%;
 padding-right:20%;
-
 
 }
 
