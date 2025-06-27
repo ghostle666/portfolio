@@ -2,13 +2,16 @@
 *{  
   margin: 0;
   padding: 0;
-  color: #ffff;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body{
   font-family: 'Times New Roman', Times, serif;
+
 }
+
+
 
 .container ul {
   margin-bottom: 0;
@@ -34,11 +37,12 @@ body{
 margin-top: 10%;
 }
 
-h2{
+.leslie{
   font-size: 60px;
   letter-spacing:.7cm;
   margin-bottom: .2%;
   text-align: center;
+color: #D9D9D9;
 }
 
 .sub-txt {
@@ -48,20 +52,31 @@ h2{
   color:#ffff;
 }
 
-li {
+.menu {
   list-style: none;
   text-align: center;
-line-height: 2;
-font-size: 20px;
-letter-spacing: .5rem;
+  line-height: 2;
+  font-size: 20px;
+  letter-spacing: .5rem;
+  transition: .5s;
 }
 
-a{
+.menu:hover{
+transform:scale(1.1) ;
+z-index: .5;
+  
+
+}
+
+
+
+
+.menul, a {
   text-decoration:none;
 }
 
 .about{
-background-color:#1E2B34;
+background-color:#0F191E;
   height:100vh;
   width: 100%;
 
@@ -85,6 +100,7 @@ padding-top:10%;
   line-height: 3;
   margin: 6%;
   line-spacing:.5rem;
+  color:#B6B6B6
 }
 
 
@@ -99,7 +115,16 @@ padding-top:10%;
   align-items: center;
   color:black;
  font-family: 'Times New Roman', Times, serif;
+ transition: .5s;
 }
+.letsworkbutton:hover {
+transform:scale(1.1) ;
+z-index: .5;
+  background-color:#003f5f;
+color:#0F191E
+}
+
+
 
 .center-button{
   display: flex;
@@ -114,61 +139,120 @@ padding:6%;
 }
 
 .projects{
-background-color: #7D8D75;
+background-color: #0F191E;
 height:100vh;
 width:100%;
 }
 
 
 .project-grid{
-  margin-left: 38%;
+  align-items: center;
+  justify-content: center;
   display:grid;
   grid-auto-rows: 100px 100px;
-  grid-template-columns: 100px 100px;
+  grid-template-columns: 200px 100px;
   gap:64px;
   
 }
 
 
-.grid{
+.grid  {
   height: 8rem;
-  width:8rem;
-   background-image: url('https://images.unsplash.com/photo-1700404243679-dd764b160784?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') ;
-  padding:40px;
-  }
+  width:12rem;
+  padding:50px;
+  transition: .5s;
+  position:relative;
+ overflow: hidden;
+}
 
+.grid a, a  {
+  color: white;
+  text-decoration: none;
+
+}
+
+  .hover-text {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+
+.aqua{
+  background-image: url("Images/heroMockup.png");
+background-size: cover;
+background-position: center;
+}
+
+.aqua:hover{
+
+background-color: #99B28A;
+  background-size: cover;
+  background-position: center;
+}
+.Ecom {
+  background-image: url("Images/eComerce.png");
+background-size: cover;
+background-position: center;
+}
+
+.landing{
+  background-image: url("Images/fitneslanding.png");
+background-size: cover;
+background-position: center;
+}
+
+.soon{ 
+ background-image: url('https://images.unsplash.com/photo-1700404243679-dd764b160784?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+ background-position: center;
+}
+
+
+.grid:hover {
+transform:scale(1.1) ;
+z-index: .5;
+  background-color: #0F191E;
+  background-size: cover;
+  background-position: center;
+
+}
 
 .contact{
-
 background-color:#0F191E ;
 min-height:100vh;
 width:100%;
 text-align: center;
 padding: 4%;
-
-
-
 }
 
 .profiles {
-margin-top: 8%;
 letter-spacing: .1cm;
-
+transition: .2s;
 }
 
 
-.email{
-background-color: #7D8D75;
-margin-top:4%;
-height:48px;
-width:124px;
-
+.social{
+margin-top:12% ;
+font-size: 28px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap:4%;
 }
 
 
 
-@media only screen and (min-width: 768px){
+.profiles:hover {
+transform:scale(1.1) ;
+z-index: .5;
 
+
+
+
+}
 .links{
 
   margin-bottom: 20%;
@@ -185,6 +269,166 @@ padding-left: 20%;
 padding-right:20%;
 
 }
+
+.message{
+width: 328px;
+
+}
+
+
+
+input{
+border-top:none;
+border-right: none;
+border-left: none;
+  background: none;
+  border-color:azure;
+  border-width: .4px;
+}
+ 
+.submit{
+background-color: #D9D9D9;
+height:28px;
+width:148px;
+color:#0F191E;
+border-radius: 10px;
+
+}
+
+
+
+
+.eCommersBody{
+color:000000;
+  background-color: #B6B6B6;
+font-size: 20px;
+}
+
+.eCommerce-title{
+margin-top: 5%;
+
+}
+
+
+.Overview{
+margin: 80px;
+
+}
+
+.flow{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+
+   
+
+.img-flow {
+height:auto;
+width:800px;
+mix-blend-mode:multiply;
+background-color: #B6B6B6;
+}
+
+
+
+.neck{
+  height:70px;
+}
+
+.palette{
+  height: 40px;
+}
+
+.headline{
+height:60px;
+
+}
+
+.design, .D2{
+display: flex;
+gap:80px;
+margin-left: 10%;
+margin-right: 10%;
+
+}
+
+.Responsiveness{
+
+margin:80px;
+}
+
+
+.DDtext{
+margin-left: 70px;
+  margin-right:60px;
+
+}
+
+.title{
+text-align: center;
+color: #B6B6B6;
+}
+
+
+.Wtext, .outcome{
+
+margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.AquariumBody { 
+  background-color:#536D68;
+  padding:4%;
+
+}
+
+
+.Aoverview{
+margin:4%;
+display:flex;
+flex-direction: column;
+gap:4%;
+
+}
+
+.A-flow{
+  display: flex;
+  margin-top: 4%;
+align-items: center;
+justify-content: center;
+gap:4%;
+}
+
+.flow-img{
+
+  height:400px;
+}
+
+.U-flow{
+width: 150px;
+
+
+}
+
+.tt{
+  text-align: center;
+font-size: 30px;
+}
+
+ol{
+display:flex;
+flex-direction: column;
+gap:18px;
 
 
 }
