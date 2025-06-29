@@ -391,13 +391,20 @@ margin: 30px;
 
 }
 
+.mar{
+padding:1%;
 
+}
 .Aoverview{
 margin:4%;
 display:flex;
 flex-direction: column;
 gap:4%;
 
+}
+
+.obj{
+  margin-top:2%;
 }
 
 .A-flow{
@@ -421,7 +428,9 @@ width: 150px;
 
 .tt{
   text-align: center;
-font-size: 30px;
+font-size: 60px;
+margin-bottom: 4%;
+margin-top: 4%;
 }
 
 ol{
@@ -429,5 +438,82 @@ display:flex;
 flex-direction: column;
 gap:18px;
 
+
+}
+
+
+
+.sub{
+
+padding:50px;
+
+}
+
+
+.dd2{
+gap: 40px;
+display:flex;
+align-items: center;
+justify-content: center;
+overflow-wrap: ;
+}
+
+
+.pic{
+width: 200px;
+margin-right: 6rem;
+}
+.cta
+{
+width: 200px;
+height:60px;
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+@media screen and (min-width:1440px) {
+  
+.AquariumBody{
+font-size: 30px;
+
+}
+
+.dd{
+margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.Ahead{
+font-size:80px;
+
+}
+.pic{
+width: 800px;
+margin-right: 10rem;
+}
+.cta
+{
+width: 300px;
+height:100px;
+}
+
+.U-flow{
+
+width: 30%;
+
+}
+
+.flow-img{
+
+height:40rem;
+
+}
+
+.pic{
+width:20%;
+
+}
 
 }
