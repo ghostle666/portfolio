@@ -305,15 +305,43 @@ font-size: 20px;
 
 .eCommerce-title{
 margin-top: 5%;
-
+font-size: 48px;
 }
 
+.flowt{
+padding:4%;
+  font-size: 2rem;
+}
+
+.Homepage{
+width:30%;
+}
+
+.carousel{
+  display: flex;
+
+  margin-top: 4%;
+gap:30px;
+}
+.car2{
+width: 224px;
+
+}
+.car{
+
+  width:20%;
+height: auto;
+}
 
 .Overview{
-margin: 80px;
+margin: 2%;
 
 }
 
+.sub{
+text-align: center;
+
+}
 .flow{
 display:flex;
 flex-direction: column;
@@ -344,12 +372,35 @@ height:60px;
 
 }
 
+.features{
+  margin:8%;
+  display: flex;
+  flex-direction: column;
+  gap: 24%;
+  font-size: 40px;
+}
+
+.mobile{
+
+display:flex;
+align-content: center;
+justify-content: center;
+}
+
+
+
 .design, .D2{
 display: flex;
 gap:80px;
-margin-left: 10%;
-margin-right: 10%;
+margin:3%;
+}
 
+.features{
+  margin:8%;
+  display: flex;
+  flex-direction: column;
+  gap: 24%;
+  font-size: 40px;
 }
 
 .Responsiveness{
@@ -510,10 +561,6 @@ height:40rem;
 
 }
 
-.dd2{
-gap: none;
-
-}
 
 }
 
@@ -521,15 +568,89 @@ gap: none;
 @media screen and (max-width:768px) {
 .AquariumBody{
 width:500px;
+}
+.text{
+  margin-top:70%;
+}
+.leslie{
+font-size: 40px;
 
 }
 
+.about{
+line-height: .1;
+padding:0%;
+
+
+}
+
+
+
+.sub{
+  font-size: 58px;
+}
+
+
+
   .pic {
-    width: 30%;         /* or a smaller fixed width like 300px */
-    margin-right: .5rem;  /* reduce gap on small screens */
+    width: 30%;       
+    margin-right: .5rem; 
   }
 
 .ddt{
   width: 100%;
 }
+
+#des{
+
+  font-size: 28px;
 }
+
+.social{
+
+
+display: flex;
+flex-direction: column;
+gap: 30px;
+
+}
+
+.design, .D2{
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding-bottom: 4%;
+}
+
+.flow{
+
+  font-size: 38px;
+}
+.flowt{
+padding:5%
+
+}
+.Homepage{
+  width: 90%;
+}
+
+
+}
+
+.msub{
+  font-size: 34px;
+  padding: 28px;
+}
+
+.carousel{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
