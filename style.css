@@ -157,8 +157,8 @@ width:100%;
 
 .grid {
   width: 100%;
-  max-width: 600px;
-  height: 200px;
+  max-width: 570px;
+  height: 150px;
 
   background-size: cover;
   background-position: center;
@@ -523,6 +523,46 @@ height:60px;
 }
 
 
+
+
+/* fitness app */
+
+.fit-body{
+
+  background-color: #d8e4eb;
+}
+
+.fitness-tittle{
+  margin: 5%;
+}
+
+.LOverview{
+padding: 5%;
+text-align: center;
+
+}
+
+.before, .after{
+
+  height: 8rem;
+}
+
+.gallery{
+display: flex;
+gap: 18px;
+margin: 20px;
+}
+
+
+.overview{
+margin: 1rem;
+
+}
+
+/* end */
+
+
+
 @media screen and (min-width:1440px) {
   
 .AquariumBody{
@@ -602,8 +642,8 @@ padding:0%;
 }
 
 #des{
-
-  font-size: 28px;
+line-height: 2;
+  font-size: 18px;
 }
 
 .social{
@@ -654,3 +694,13 @@ padding:5%
 
 
 
+
+ 
+@media screen and (min-width:1440px){
+
+.grid {
+  width: 100%;
+  max-width: 800px;
+  height: 470px;
+}
+}
